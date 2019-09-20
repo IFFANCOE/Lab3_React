@@ -5,8 +5,7 @@ body{
 }
 .first{         /* small_widows: ; */
 
-  background-image: url('d2.JPG');
-  background-position: center;   
+  background: #0be3ff88;
   display: block;
   margin: 0 auto;
   width: 30cm;

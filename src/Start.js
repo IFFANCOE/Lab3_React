@@ -5,7 +5,7 @@ function Start() {
   return (
   <div className="one">
   <div className="row">
-    <h1 className="text-head"> play game on react</h1>
+    <h1  className="text-head" className="col"> play game on react</h1>
       </div>
     </div>
   );
