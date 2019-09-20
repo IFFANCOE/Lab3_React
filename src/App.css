@@ -3,8 +3,8 @@ body{
   background-position: center;
   font-family: 'Roboto', sans-serif;
 }
-.first{
-  background: #5bf812;
+.first{         /* small_widows: ; */
+   background: #a5f580;   
   display: block;
   margin: 0 auto;
   width: 30cm;
