@@ -4,7 +4,9 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 .first{         /* small_widows: ; */
-   background: #a5f580;   
+
+  background-image: url('d2.JPG');
+  background-position: center;   
   display: block;
   margin: 0 auto;
   width: 30cm;
