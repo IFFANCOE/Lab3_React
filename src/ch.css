@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(253, 61, 61)33, 31, 31);
+    color: rgb(253, 61, 61)33, 31, 40);
 }
 .text{
     text-align: center;
@@ -11,5 +11,5 @@
     display: flex;
     justify-content: 150px;
     align-items: center;
-    color: orange;
+    color: rgb(255, 0, 221);
 }
