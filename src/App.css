@@ -1,11 +1,10 @@
 body{
-  background-image: url('d.jpg');
+  background-image: url('d.JPG');
   background-position: center;
   font-family: 'Roboto', sans-serif;
 }
 .first{         /* small_widows: ; */
-
-  background: #0be3ff88;
+  background: #496afcc2;
   display: block;
   margin: 0 auto;
   width: 30cm;
@@ -133,7 +132,7 @@ body{
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
-  background-color: rgb(241, 241, 241); 
+  background-color: white; 
   color: black; 
   border: 2px solid #d6e0e9;
   border-radius: 12px;
@@ -157,6 +156,6 @@ body{
   display: flex;
   justify-content: center;
   color: white;
-  text-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
