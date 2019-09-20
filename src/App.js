@@ -2,7 +2,6 @@ import React from 'react';
 import Start from './Start'
 import './App.css';
 import _ from 'lodash';
-import profile from './profile.jpg';
 import Ev from './Ev';
 import Check from './Check';
 
@@ -61,7 +60,7 @@ class App extends React.Component {
         </div>
         <div className="first">
           <div className="second">
-            <div className="profile-area"><img className="profile" src={profile}></img></div>
+            
             <div className="center-box">
               <div className="center-text">
                 <div className="text1"><h1 className="text">LAB:3SA03  6035512015</h1></div>

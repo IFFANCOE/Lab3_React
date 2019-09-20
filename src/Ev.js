@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-class action extends React.Component {
+class Ev extends React.Component {
     state = {
         active: false
     }
@@ -33,4 +33,4 @@ class action extends React.Component {
         )
     }
 }
-export default action;
+export default Ev;
