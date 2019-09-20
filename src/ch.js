@@ -1,8 +1,8 @@
 import React from 'react';
-import './Check.css';
+import './ch.css';
 
 
-class Check extends React.Component {
+class ch extends React.Component {
     render() {
         let count_end = this.props.check_count > 5 ? 'area2' : '';
         let count_ends = this.props.check_count > 5 ? "Game Over" : "Counter : " + this.props.check_count;
@@ -16,4 +16,4 @@ class Check extends React.Component {
         )
     }
 }
-export default Check;
+export default ch;

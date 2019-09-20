@@ -3,7 +3,7 @@ import Start from './Start'
 import './App.css';
 import _ from 'lodash';
 import Ev from './Ev';
-import Check from './Check';
+import Check from './ch';
 
 const message = 'central'
 const prepareStateFromWord = (given_word) => {
