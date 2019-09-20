@@ -133,7 +133,7 @@ body{
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
-  background-color: white; 
+  background-color: rgb(241, 241, 241); 
   color: black; 
   border: 2px solid #d6e0e9;
   border-radius: 12px;
@@ -157,6 +157,6 @@ body{
   display: flex;
   justify-content: center;
   color: white;
-  text-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+  text-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
