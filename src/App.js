@@ -9,7 +9,7 @@ import Check from './Check';
 const message = 'central'
 const prepareStateFromWord = (given_word) => {
   let word = given_word.toUpperCase()
-  let chars = _.shuffle(Array.from(word))
+  let chars = _.shuffle(Array.from(word))     
   return {
     word,
     chars,
@@ -48,9 +48,9 @@ class App extends React.Component {
   }
   
   render() {
-    let check = this.state.completed === false ? '' : <button className="button" onClick={this.reset}><h1>Play Again</h1></button>;
+    let ch1= this.state.completed === false ? '' : <button className="button" onClick={this.reset}><h1>Play Again</h1></button>;
     let ans = this.state.completed === false ? '' : <h3 className="ans">This word is {message}</h3>;
-    let checks = this.state.completed === false ? '' : <h1 className="win">You Win</h1>;
+    let ch2 = this.state.completed === false ? '' : <h1 className="win">You Win</h1>;
    
 
     return (
@@ -104,9 +104,9 @@ class App extends React.Component {
                   <Check check_count={this.state.counter} />
                 </div>
                 <div className="button-area">
-                  {check}
+                  {ch1}
                   {ans}
-                  {checks}
+                  {ch2}
                 </div>
               </div>
             </div>
